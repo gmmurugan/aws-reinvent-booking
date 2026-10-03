@@ -10,10 +10,16 @@ const STORAGE_KEY = "reinvent-booking-favorites-v1";
 interface FavoritesCtx {
   added: string[];
   toggle: (code: string) => void;
+  addMany: (codes: string[]) => void;
   has: (code: string) => boolean;
 }
 
-const Ctx = createContext<FavoritesCtx>({ added: [], toggle: () => {}, has: () => false });
+const Ctx = createContext<FavoritesCtx>({
+  added: [],
+  toggle: () => {},
+  addMany: () => {},
+  has: () => false,
+});
 
 export function FavoritesProvider({ children }: { children: React.ReactNode }) {
   const [added, setAdded] = useState<string[]>([]);
@@ -45,7 +51,18 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
 
   const has = useCallback((code: string) => added.includes(code), [added]);
 
-  return <Ctx.Provider value={{ added, toggle, has }}>{children}</Ctx.Provider>;
+  const addMany = useCallback(
+    (codes: string[]) => {
+      const next = [...added];
+      for (const c of codes) {
+        if (!next.includes(c)) next.push(c);
+      }
+      persist(next);
+    },
+    [added]
+  );
+
+  return <Ctx.Provider value={{ added, toggle, addMany, has }}>{children}</Ctx.Provider>;
 }
 
 export function useFavorites(): FavoritesCtx {

@@ -1,0 +1,1905 @@
+[
+ {
+  "code": "MAM211-R",
+  "title": "How to assess your environment to migrate & modernize with confidence",
+  "type": "Chalk talk",
+  "level": "200",
+  "day": "2026-11-30",
+  "time": "10:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": "AWS Transform agentic assessment; license-optimization angle.",
+  "tags": [
+   "AI agents",
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": "MAM211"
+ },
+ {
+  "code": "MAM306-R1",
+  "title": "Build a data-driven migration plan with AWS Transform",
+  "type": "Builders' session",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "10:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [
+   "Legacy modernization",
+   "Data engineering"
+  ],
+  "fsi": true,
+  "repeatOf": "MAM306"
+ },
+ {
+  "code": "DVT305-R",
+  "title": "Modernize your CI/CD pipeline with AWS",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "12:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": "Hands-on CI/CD modernization.",
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": "DVT305"
+ },
+ {
+  "code": "DVT316",
+  "title": "What's new in full-stack AWS app development",
+  "type": "Breakout",
+  "level": null,
+  "day": "2026-11-30",
+  "time": "12:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": null,
+  "tags": [],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "SVS303-R1",
+  "title": "AI-driven serverless development with Kiro",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "12:00 PM",
+  "venue": "Caesars Palace",
+  "abstract": "Kiro + serverless hands-on.",
+  "tags": [
+   "Kiro & AI dev tools",
+   "Serverless"
+  ],
+  "fsi": false,
+  "repeatOf": "SVS303"
+ },
+ {
+  "code": "IND3326",
+  "title": "How Bridgewater Associates uses agentic SDLC to accelerate change",
+  "type": "Breakout",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "1:00 PM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Kiro & AI dev tools"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "AMZ303-R",
+  "title": "The Road to 10x velocity",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "2:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": "AMZ303"
+ },
+ {
+  "code": "IND307-R",
+  "title": "Mastering LLM tokenomics: From token costs to business outcomes",
+  "type": "Chalk talk",
+  "level": null,
+  "day": "2026-11-30",
+  "time": "3:00 PM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "Generative AI",
+   "FinOps & cost optimization"
+  ],
+  "fsi": true,
+  "repeatOf": "IND307"
+ },
+ {
+  "code": "IND3335",
+  "title": "DTCC: Rethinking mainframe modernization with spec-driven development",
+  "type": "Breakout",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "4:00 PM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "DVT207-R",
+  "title": "Learn new AI development skills with Kiro",
+  "type": "Builders' session",
+  "level": "100",
+  "day": "2026-11-30",
+  "time": "8:00 AM",
+  "venue": "Caesars Forum",
+  "abstract": "Hands-on Kiro skills.",
+  "tags": [
+   "Kiro & AI dev tools"
+  ],
+  "fsi": false,
+  "repeatOf": "DVT207"
+ },
+ {
+  "code": "MAM313-R",
+  "title": "Migrate and modernize infrastructure from your IDE with agentic AI",
+  "type": "Code talk",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "8:00 AM",
+  "venue": "MGM Grand",
+  "abstract": "Kiro + AWS Transform generating landing zones as IaC (Terraform/CDK), VMware-to-VPC network agents, containerization to EKS.",
+  "tags": [
+   "AI agents",
+   "Kiro & AI dev tools",
+   "Legacy modernization",
+   "Containers & Kubernetes",
+   "Networking"
+  ],
+  "fsi": false,
+  "repeatOf": "MAM313"
+ },
+ {
+  "code": "IND374-R",
+  "title": "Don't ban it, broker it: Govern AI coding agents with Amazon Bedrock",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-11-30",
+  "time": "9:00 AM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "Generative AI",
+   "Kiro & AI dev tools"
+  ],
+  "fsi": true,
+  "repeatOf": "IND374"
+ },
+ {
+  "code": "TNC315",
+  "title": "Modernize .NET Applications with AWS Transform and Kiro",
+  "type": "Lab",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "10:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": "Legacy .NET modernization, hands-on.",
+  "tags": [
+   "Kiro & AI dev tools",
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM211-R1",
+  "title": "How to assess your environment to migrate & modernize with confidence",
+  "type": "Chalk talk",
+  "level": "200",
+  "day": "2026-12-01",
+  "time": "11:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": "AWS Transform agentic assessment.",
+  "tags": [
+   "AI agents",
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": "MAM211"
+ },
+ {
+  "code": "MAM327",
+  "title": "5 steps to faster data center exits with AWS Transform",
+  "type": "Breakout",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "11:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "IND374-R1",
+  "title": "Don't ban it, broker it: Govern AI coding agents with Amazon Bedrock",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "1:00 PM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "Generative AI",
+   "Kiro & AI dev tools"
+  ],
+  "fsi": true,
+  "repeatOf": "IND374"
+ },
+ {
+  "code": "MAM331-R1",
+  "title": "Guide to deploying landing zones & modernized networks in hours",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "1:00 PM",
+  "venue": "Wynn",
+  "abstract": "AWS Transform agentic landing zones via Control Tower.",
+  "tags": [
+   "AI agents",
+   "Legacy modernization",
+   "Networking"
+  ],
+  "fsi": false,
+  "repeatOf": "MAM331"
+ },
+ {
+  "code": "DVT207-R1",
+  "title": "Learn new AI development skills with Kiro",
+  "type": "Builders' session",
+  "level": "100",
+  "day": "2026-12-01",
+  "time": "2:00 PM",
+  "venue": "MGM Grand",
+  "abstract": "Hands-on Kiro skills.",
+  "tags": [
+   "Kiro & AI dev tools"
+  ],
+  "fsi": false,
+  "repeatOf": "DVT207"
+ },
+ {
+  "code": "IND302-R1",
+  "title": "Evaluating AI agents for production in financial services",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "2:00 PM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": "IND302"
+ },
+ {
+  "code": "DVT305-R1",
+  "title": "Modernize your CI/CD pipeline with AWS",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "3:00 PM",
+  "venue": "MGM Grand",
+  "abstract": "Repeat of the CI/CD modernization workshop.",
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": "DVT305"
+ },
+ {
+  "code": "DVT313",
+  "title": "Build real-time applications with AWS Amplify",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "3:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": "Frontend pick: real-time full-stack on Amplify.",
+  "tags": [],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM322-R",
+  "title": "Build an AI testing safety net before you modernize",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "3:00 PM",
+  "venue": "Wynn",
+  "abstract": "Modernization enabler: AI testing safety net.",
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": "MAM322"
+ },
+ {
+  "code": "SVS341-R1",
+  "title": "Lambda performance tuning and cost optimization",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-01",
+  "time": "4:00 PM",
+  "venue": "Caesars Palace",
+  "abstract": "Serverless cost tuning.",
+  "tags": [
+   "Serverless",
+   "FinOps & cost optimization"
+  ],
+  "fsi": false,
+  "repeatOf": "SVS341"
+ },
+ {
+  "code": "MAM313-R1",
+  "title": "Migrate and modernize infrastructure from your IDE with agentic AI",
+  "type": "Code talk",
+  "level": "300",
+  "day": "2026-12-02",
+  "time": "10:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": "Kiro + AWS Transform IaC.",
+  "tags": [
+   "AI agents",
+   "Kiro & AI dev tools",
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": "MAM313"
+ },
+ {
+  "code": "OPN304-R",
+  "title": "Observability for AI agents: Strands, OpenTelemetry, and Langfuse",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-02",
+  "time": "12:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": "Open-source observability for agents.",
+  "tags": [
+   "AI agents",
+   "Open source"
+  ],
+  "fsi": false,
+  "repeatOf": "OPN304"
+ },
+ {
+  "code": "OPN307-R",
+  "title": "Build multi-agent workflows with Strands Agents SDK on AWS",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-02",
+  "time": "12:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": "Open-source agents framework, hands-on.",
+  "tags": [
+   "AI agents",
+   "Open source"
+  ],
+  "fsi": false,
+  "repeatOf": "OPN307"
+ },
+ {
+  "code": "AMZ303-R1",
+  "title": "The Road to 10x velocity",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-02",
+  "time": "3:00 PM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": "AMZ303"
+ },
+ {
+  "code": "CON329",
+  "title": "Accelerate application development with Amazon ECS Express Mode",
+  "type": "Breakout",
+  "level": "300",
+  "day": "2026-12-02",
+  "time": "4:00 PM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [
+   "Containers & Kubernetes"
+  ],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "DVT204",
+  "title": "Beyond the pilot: How customers scaled Kiro and proved the value (featuring NatWest and FINRA)",
+  "type": "Breakout",
+  "level": "200",
+  "day": "2026-12-02",
+  "time": "4:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": "Kiro at NatWest and FINRA.",
+  "tags": [
+   "Kiro & AI dev tools"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "SVS303-R",
+  "title": "AI-driven serverless development with Kiro",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-02",
+  "time": "8:00 AM",
+  "venue": "Wynn",
+  "abstract": "Kiro + serverless hands-on.",
+  "tags": [
+   "Kiro & AI dev tools",
+   "Serverless"
+  ],
+  "fsi": false,
+  "repeatOf": "SVS303"
+ },
+ {
+  "code": "API201",
+  "title": "Modernize legacy applications into serverless event-driven systems",
+  "type": "Breakout",
+  "level": "200",
+  "day": "2026-12-03",
+  "time": "11:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [
+   "Legacy modernization",
+   "Serverless"
+  ],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "IND302-R",
+  "title": "Evaluating AI agents for production in financial services",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "11:00 AM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": "IND302"
+ },
+ {
+  "code": "IND375",
+  "title": "Emerging multi-agent patterns for complex financial workflows",
+  "type": "Chalk talk",
+  "level": null,
+  "day": "2026-12-03",
+  "time": "11:00 AM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM306-R",
+  "title": "Build a data-driven migration plan with AWS Transform",
+  "type": "Builders' session",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "11:00 AM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [
+   "Legacy modernization",
+   "Data engineering"
+  ],
+  "fsi": true,
+  "repeatOf": "MAM306"
+ },
+ {
+  "code": "ARC330",
+  "title": "Pitfalls of SaaS: Return of the agent",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "12:00 PM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "DVT307",
+  "title": "Beyond code generation: accelerating the entire SDLC on AWS (featuring Transamerica)",
+  "type": "Breakout",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "12:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": null,
+  "tags": [
+   "Kiro & AI dev tools"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM322-R1",
+  "title": "Build an AI testing safety net before you modernize",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "12:00 PM",
+  "venue": "Caesars Palace",
+  "abstract": "Modernization enabler.",
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": "MAM322"
+ },
+ {
+  "code": "SVS341-R",
+  "title": "Lambda performance tuning and cost optimization",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "1:00 PM",
+  "venue": "Caesars Forum",
+  "abstract": "Serverless cost tuning.",
+  "tags": [
+   "Serverless",
+   "FinOps & cost optimization"
+  ],
+  "fsi": false,
+  "repeatOf": "SVS341"
+ },
+ {
+  "code": "IND307-R1",
+  "title": "Mastering LLM tokenomics: From token costs to business outcomes",
+  "type": "Chalk talk",
+  "level": null,
+  "day": "2026-12-03",
+  "time": "3:00 PM",
+  "venue": "Caesars Palace",
+  "abstract": null,
+  "tags": [
+   "Generative AI",
+   "FinOps & cost optimization"
+  ],
+  "fsi": true,
+  "repeatOf": "IND307"
+ },
+ {
+  "code": "OPN307-R1",
+  "title": "Build multi-agent workflows with Strands Agents SDK on AWS",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "3:00 PM",
+  "venue": "MGM Grand",
+  "abstract": "Open-source agents framework, hands-on.",
+  "tags": [
+   "AI agents",
+   "Open source"
+  ],
+  "fsi": false,
+  "repeatOf": "OPN307"
+ },
+ {
+  "code": "DVT333",
+  "title": "Full stack development on AWS: bring your questions",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "8:00 AM",
+  "venue": "Caesars Forum",
+  "abstract": "Frontend/full-stack Q&A.",
+  "tags": [],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "IND372",
+  "title": "Modernize a Legacy Telecom Billing App with AWS Transform Custom",
+  "type": "Builders' session",
+  "level": "300",
+  "day": "2026-12-03",
+  "time": "8:00 AM",
+  "venue": "Caesars Forum",
+  "abstract": "Legacy app modernization hands-on.",
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "CMP355-R1",
+  "title": "Auto Scaling meets Capacity Reservations: Patterns that work",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-04",
+  "time": "10:00 AM",
+  "venue": "Wynn",
+  "abstract": "Cost-optimization patterns.",
+  "tags": [],
+  "fsi": false,
+  "repeatOf": "CMP355"
+ },
+ {
+  "code": "SVS401-R1",
+  "title": "Orchestrating agentic applications with Lambda durable functions",
+  "type": "Workshop",
+  "level": "400",
+  "day": "2026-12-04",
+  "time": "10:00 AM",
+  "venue": "Wynn",
+  "abstract": "Serverless + agents + MCP, hands-on.",
+  "tags": [
+   "AI agents",
+   "Serverless"
+  ],
+  "fsi": false,
+  "repeatOf": "SVS401"
+ },
+ {
+  "code": "MAM224",
+  "title": "How FINRA automated dependency lifecycle management with AI agents",
+  "type": "Breakout",
+  "level": "200",
+  "day": "2026-12-04",
+  "time": "11:00 AM",
+  "venue": "Venetian",
+  "abstract": "Kiro + AWS Transform custom upgrade agents.",
+  "tags": [
+   "AI agents",
+   "Kiro & AI dev tools",
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "CMP314-R1",
+  "title": "Optimize smarter: EKS performance with APerf and AI-powered analysis",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-04",
+  "time": "8:00 AM",
+  "venue": "Wynn",
+  "abstract": "Cost + AI + open source (APerf).",
+  "tags": [
+   "Containers & Kubernetes",
+   "Open source"
+  ],
+  "fsi": false,
+  "repeatOf": "CMP314"
+ },
+ {
+  "code": "CON301-R1",
+  "title": "Running compute-efficient workloads on Amazon EKS Auto Mode",
+  "type": "Workshop",
+  "level": "300",
+  "day": "2026-12-04",
+  "time": "8:00 AM",
+  "venue": "Wynn",
+  "abstract": "Cost via open-source Karpenter, Graviton, Spot.",
+  "tags": [
+   "Containers & Kubernetes",
+   "FinOps & cost optimization",
+   "Open source"
+  ],
+  "fsi": false,
+  "repeatOf": "CON301"
+ },
+ {
+  "code": "STG328-R1",
+  "title": "Optimize performance and cost of Amazon EBS at massive scale",
+  "type": "Chalk talk",
+  "level": "300",
+  "day": "2026-12-04",
+  "time": "8:00 AM",
+  "venue": "Wynn",
+  "abstract": null,
+  "tags": [
+   "Storage"
+  ],
+  "fsi": false,
+  "repeatOf": "STG328"
+ },
+ {
+  "code": "COP408",
+  "title": "Correlate database query latency to user impact",
+  "type": "Code talk",
+  "level": "400",
+  "day": "2026-12-04",
+  "time": "9:00 AM",
+  "venue": "Wynn",
+  "abstract": "OpenTelemetry to CloudWatch.",
+  "tags": [
+   "Open source",
+   "Databases"
+  ],
+  "fsi": false,
+  "repeatOf": null
+ },
+ {
+  "code": "AIM335",
+  "title": "Build provable AI agents with Automated Reasoning checks",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "AMZ303",
+  "title": "The Road to 10x velocity",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "ARC407",
+  "title": "Data mesh at scale: The automation layer, proven at Experian",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Data engineering"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "BIZ109",
+  "title": "How FSI brands are navigating conversational AI for customer engagement",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "BIZ311",
+  "title": "Master agent skills: From desktop builds to production deployment",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "BIZ313",
+  "title": "Build agentic automations for business processes with Amazon Quick Automate",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "COM312",
+  "title": "Giving your AI agent a wallet: The architecture of spend control",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "FinOps & cost optimization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "COM313",
+  "title": "Agentic commerce in production: multi-agent orchestration on AgentCore",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "COM318",
+  "title": "KYC in 90 seconds: Real-time onboarding with AgentCore",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "COM403",
+  "title": "One-way doors: Launching a regulated financial exchange on AWS in 2026",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "CON413",
+  "title": "Scale financial risk simulations with AWS Batch and Amazon ECS",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Containers & Kubernetes"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "COP202",
+  "title": "Autonomous operations: Reducing MTTR at scale, feat. BMG Bank",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "COP352",
+  "title": "Autonomous SRE: AWS DevOps Agent in financial services",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "DAT311",
+  "title": "Build a digital asset tokenization issuance solution",
+  "type": "Builders' session",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "DAT314",
+  "title": "Optimizing prediction market and trading infrastructure",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "DAT412",
+  "title": "Migrate to Amazon DynamoDB with AI-powered schema design",
+  "type": "Code talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Legacy modernization",
+   "Databases"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "DAT415",
+  "title": "Financial data modeling with Amazon DynamoDB",
+  "type": "Builders' session",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Databases"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "DAT437",
+  "title": "Building ontologies with Amazon Neptune",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Databases"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "DAT438",
+  "title": "Build agentic payment investigators on Aurora PostgreSQL & AgentCore",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Databases"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "HMC310",
+  "title": "Gemini gets closer to traders with AWS Outposts and AWS Local Zones",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "IoT & Edge"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "HMC314",
+  "title": "Architecting for digital sovereignty: Choosing your AWS hybrid cloud infrastructure",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "HMC318",
+  "title": "How Itaú built cell-based resilience for critical workloads across clouds",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "HMC322",
+  "title": "How Fidelity built a cloud-agnostic AI Gateway",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND302",
+  "title": "Evaluating AI agents for production in financial services",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND307",
+  "title": "Mastering LLM tokenomics: From token costs to business outcomes",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Generative AI",
+   "FinOps & cost optimization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND308",
+  "title": "Automate dispute resolution with Amazon Connect and Amazon Bedrock",
+  "type": "Builders' session",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND311",
+  "title": "Build a payment-enabled AI agent with Amazon Bedrock AgentCore Payments",
+  "type": "Builders' session",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND312",
+  "title": "Build stablecoin infrastructure from key management to agentic payments",
+  "type": "Builders' session",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND313",
+  "title": "Event-driven AI agents for security triage with AWS Continuum",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Serverless",
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND317",
+  "title": "Automate disaster recovery with Amazon Bedrock AgentCore",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND318",
+  "title": "Right tool, right layer: Combining ML models and autonomous agents",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND327",
+  "title": "Build self-healing agents from diagnosis to disaster recovery",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND329",
+  "title": "Build a multi-agent system for hyper-personalized customer journeys",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND330",
+  "title": "Patterns for mitigating AI-powered security threats in financial services",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3305",
+  "title": "How Citizens Bank reimagined CX with Amazon Connect and generative AI",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3306",
+  "title": "How Ramp tracks and governs AI spend down to the team, model, and API key",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "FinOps & cost optimization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND331",
+  "title": "Don't rewrite your APIs: Make them agent-ready for agentic AI",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3310",
+  "title": "Optimizing agentic AI: Vanguard's production deployment journey",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3311",
+  "title": "How Santander governs hundreds of AI agents in production on Amazon Bedrock",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3312",
+  "title": "Danske Bank's AI City: Scaling AI agents across an enterprise",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3313",
+  "title": "Core banking agent-ready: From composable to agentic financial services on AWS",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3319",
+  "title": "Governed AI agents for regulated financial services at FINRA",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND332",
+  "title": "Unifying fragmented data: A lakehouse for the agentic AI era",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Data engineering"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3327",
+  "title": "Northwestern Mutual: Reinventing policy servicing with agentic AI",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3328",
+  "title": "How Paytm powers millions of customer journeys with AI agents on AWS",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3329",
+  "title": "Allianz: Scaling product reach with agentic commerce across channels",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND333",
+  "title": "Talk to your market data: Agentic AI meets exchange feeds",
+  "type": "Builders' session",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Data engineering"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3330",
+  "title": "State Street: Scaling AI agents that write, deploy, and govern",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND334",
+  "title": "Compete to build an AI agent with Amazon Bedrock AgentCore",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3341",
+  "title": "LSEG: Scaling multi-agent AI with assurance on Amazon Bedrock",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3342",
+  "title": "How Stripe built an enterprise agent platform on Amazon Bedrock AgentCore",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3344",
+  "title": "Aon: Turning raw exposure data into faster underwriting",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Data engineering"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3346",
+  "title": "Data mesh to agentic AI: Building an AI-ready enterprise on AWS",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Data engineering"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND3350",
+  "title": "Visa: Building autonomous defense for payments security in the agentic AI era",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND347",
+  "title": "Build a governed semantic layer with Amazon Bedrock AgentCore and MCP",
+  "type": "Builders' session",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI",
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND348",
+  "title": "Accelerate service onboarding with composable AI plugins",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND354",
+  "title": "Implement AI agent safety controls with Amazon Bedrock AgentCore",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND356",
+  "title": "From static to self-improving agents with Amazon Bedrock AgentCore",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND358",
+  "title": "Securing AI agents: Governance patterns for regulated workloads",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND364",
+  "title": "Build agentic fraud detection with a transaction foundation model",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Generative AI",
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND365",
+  "title": "Operational resilience in regulated environments with AWS DevOps Agent",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND369",
+  "title": "Innovate faster, stay compliant: Innovation Sandbox for financial services",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND374",
+  "title": "Don't ban it, broker it: Govern AI coding agents with Amazon Bedrock",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Generative AI",
+   "Kiro & AI dev tools"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND381",
+  "title": "Decision patterns for AI Agents with Amazon Connect Customer",
+  "type": "Chalk talk",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "IND394",
+  "title": "Mastercard: Training a large transaction model on billions of transactions",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Generative AI"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM206",
+  "title": "End-to-end agentic modernization with United Airlines & Bank Hapoalim",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM207",
+  "title": "Using AI to scale legacy app modernization with Experian & Itaú",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM322",
+  "title": "Build an AI testing safety net before you modernize",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM324",
+  "title": "Transforming legacy core to agentic AI with Nissan & Bread Financial",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "AI agents",
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM328",
+  "title": "Capital One's WorkSpaces journey: 320 to 20,000 desktops in 72hrs",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "MAM346",
+  "title": "Your playbook for modernizing 988K lines of .NET in 2 days",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Legacy modernization"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "SEC207",
+  "title": "Balancing trust and agility - payment cryptography in the cloud with Capital One",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "SEC307",
+  "title": "How SCHUFA strengthened security operations with AWS Security Hub",
+  "type": "Breakout",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "SEC318",
+  "title": "Cryptographic computing on AWS: homomorphic encryption in practice",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "SEC411",
+  "title": "Processing PII without exposing it: KYC with Nitro Enclaves",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Security & compliance"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "STG339",
+  "title": "Protect, recover, validate: Data resiliency for AWS storage",
+  "type": "Workshop",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [
+   "Storage"
+  ],
+  "fsi": true,
+  "repeatOf": null
+ },
+ {
+  "code": "TNC322",
+  "title": "Build wealth advisor agents with full-stack agent architecture",
+  "type": "Lab",
+  "level": null,
+  "day": null,
+  "time": null,
+  "venue": null,
+  "abstract": null,
+  "tags": [],
+  "fsi": true,
+  "repeatOf": null
+ }
+]

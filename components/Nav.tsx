@@ -2,9 +2,10 @@ import Link from "next/link";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/favorites", label: "My sessions" },
-  { href: "/suggest", label: "Suggested" },
-  { href: "/booking", label: "Booking" },
+  { href: "/onboarding", label: "Profile" },
+  { href: "/suggest", label: "Top 30" },
+  { href: "/favorites", label: "Favorites" },
+  { href: "/booking", label: "Reserve run" },
 ];
 
 export default function Nav() {
@@ -14,7 +15,7 @@ export default function Nav() {
         <Link href="/" className="text-sm font-bold tracking-tight text-amber-400">
           re:Invent booking
         </Link>
-        <nav className="flex gap-1 text-sm">
+        <nav className="flex flex-wrap gap-1 text-sm">
           {links.map((l) => (
             <Link
               key={l.href}

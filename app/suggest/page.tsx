@@ -1,130 +1,103 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 import SessionCard from "@/components/SessionCard";
-import { allItineraryEntries, fsiPicks, type Interest } from "@/data/sessions";
+import { loadProfile, type Profile } from "@/lib/profile";
+import { groupByDay, scoreCatalog } from "@/lib/suggest";
 import { useFavorites } from "@/lib/favorites";
 
-const chips: Interest[] = [
-  "Legacy modernization",
-  "AI dev / Kiro",
-  "FinOps / cost",
-  "Open source",
-  "Serverless",
-  "AI agents",
-];
-
 export default function SuggestPage() {
-  const [selected, setSelected] = useState<Interest[]>([]);
-  const { has, toggle } = useFavorites();
+  const router = useRouter();
+  const { has, toggle, addMany } = useFavorites();
+  const [profile, setProfile] = useState<Profile | null>(null);
+  const [ready, setReady] = useState(false);
 
-  const toggleChip = (chip: Interest) =>
-    setSelected((s) => (s.includes(chip) ? s.filter((c) => c !== chip) : [...s, chip]));
+  useEffect(() => {
+    const p = loadProfile();
+    if (!p) {
+      router.replace("/onboarding");
+      return;
+    }
+    setProfile(p);
+    setReady(true);
+  }, [router]);
 
-  const picks = useMemo(
-    () =>
-      selected.length === 0
-        ? fsiPicks
-        : fsiPicks.filter((p) => p.interests.some((i) => selected.includes(i))),
-    [selected]
+  const groups = useMemo(
+    () => (profile ? groupByDay(scoreCatalog(profile)) : []),
+    [profile]
+  );
+  const allCodes = useMemo(
+    () => groups.flatMap((g) => g.sessions.map((s) => s.session.code)),
+    [groups]
   );
 
-  const itineraryMatches = useMemo(
-    () =>
-      selected.length === 0
-        ? []
-        : allItineraryEntries().filter(
-            (e) =>
-              e.interests?.some((i) => selected.includes(i)) &&
-              !fsiPicks.some((p) => p.code === e.code)
-          ),
-    [selected]
-  );
+  if (!ready) {
+    return <p className="text-slate-400">Loading your profile…</p>;
+  }
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-white">Suggested for you</h1>
-        <p className="mt-1 text-slate-400">
-          20 picks from the AWS FSI Attendee Guide, matched to your learning themes. Tap an
-          interest to filter — add what fits to your favorites.
-        </p>
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <h1 className="text-2xl font-bold text-white">Your top 30 sessions</h1>
+          <p className="mt-1 text-sm text-slate-400">
+            For a {profile?.role} in {profile?.industry} · interests:{" "}
+            {profile?.interests.join(", ")}
+          </p>
+        </div>
+        <div className="flex gap-2">
+          <Link
+            href="/onboarding"
+            className="rounded-lg border border-slate-700 px-3 py-1.5 text-sm text-slate-300 hover:bg-slate-800"
+          >
+            Edit profile
+          </Link>
+          <button
+            onClick={() => addMany(allCodes)}
+            className="rounded-lg bg-amber-500 px-3 py-1.5 text-sm font-semibold text-slate-950 hover:bg-amber-400"
+          >
+            Add all 30 to favorites
+          </button>
+        </div>
       </div>
 
-      <div className="flex flex-wrap gap-2">
-        {chips.map((chip) => (
-          <button
-            key={chip}
-            onClick={() => toggleChip(chip)}
-            className={`rounded-full border px-4 py-1.5 text-sm font-medium transition ${
-              selected.includes(chip)
-                ? "border-amber-500 bg-amber-500/20 text-amber-200"
-                : "border-slate-700 bg-slate-900 text-slate-300 hover:border-slate-500"
-            }`}
-          >
-            {chip}
-          </button>
-        ))}
-        {selected.length > 0 && (
-          <button
-            onClick={() => setSelected([])}
-            className="rounded-full px-4 py-1.5 text-sm text-slate-400 hover:text-white"
-          >
-            Clear
-          </button>
-        )}
-      </div>
-
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold text-white">
-          FSI guide picks <span className="text-sm font-normal text-slate-400">({picks.length})</span>
-        </h2>
-        {picks.length === 0 && (
-          <p className="text-sm text-slate-400">No picks match those interests yet — try another combination.</p>
-        )}
-        <div className="grid gap-3 md:grid-cols-2">
-          {picks.map((p) => (
-            <div key={p.code} className="space-y-2">
+      {groups.map((g) => (
+        <section key={g.day ?? "tbd"} className="space-y-3">
+          <div className="border-b border-slate-800 pb-2">
+            <h2 className="text-lg font-semibold text-white">{g.label}</h2>
+            <p className="text-sm text-amber-400/90">Theme: {g.theme}</p>
+          </div>
+          <div className="grid gap-3">
+            {g.sessions.map(({ session, reasons }) => (
               <SessionCard
-                entry={{
-                  code: p.code,
-                  title: p.title,
-                  type: p.type,
-                  time: "Day/time TBD — verify in catalog",
-                  fsi: true,
-                  note: p.why,
-                }}
-                badge={`${p.themeDay} theme`}
+                key={session.code}
+                session={session}
+                reasons={reasons}
                 action={
                   <button
-                    onClick={() => toggle(p.code)}
-                    className={`rounded-lg px-3 py-1.5 text-sm font-medium ${
-                      has(p.code)
-                        ? "border border-emerald-500/50 bg-emerald-500/15 text-emerald-200"
-                        : "border border-slate-700 text-slate-300 hover:bg-slate-800"
+                    onClick={() => toggle(session.code)}
+                    className={`rounded-lg border px-3 py-1.5 text-sm ${
+                      has(session.code)
+                        ? "border-emerald-500/50 bg-emerald-500/10 text-emerald-300"
+                        : "border-slate-700 text-slate-300 hover:bg-slate-800"
                     }`}
                   >
-                    {has(p.code) ? "✓ In favorites" : "Add to favorites"}
+                    {has(session.code) ? "★ Favorited" : "☆ Add to favorites"}
                   </button>
                 }
               />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {itineraryMatches.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="text-lg font-semibold text-white">
-            Already in your itinerary <span className="text-sm font-normal text-slate-400">({itineraryMatches.length})</span>
-          </h2>
-          <div className="grid gap-3 md:grid-cols-2">
-            {itineraryMatches.map((e) => (
-              <SessionCard key={`${e.code}-${e.time}`} entry={e} badge="In itinerary" />
             ))}
           </div>
         </section>
-      )}
+      ))}
+
+      <p className="text-xs text-slate-500">
+        Sessions marked “Day/time TBD” come from the AWS FSI Attendee Guide,
+        which doesn&apos;t publish schedules — verify them in the official
+        catalog before Oct 6.
+      </p>
     </div>
   );
 }
